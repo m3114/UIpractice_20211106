@@ -41,6 +41,34 @@
         android:imeOptions="actionSearch"
         android:hint="자유 입력"/>
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="성별"/>
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+<!--        이사용을 무슨 내용을 사용해도 상관없다.주석-->
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="남성"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="여성"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="공개 안함."/>
+
+
+    </RadioGroup>
+
+
     <CheckBox
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
